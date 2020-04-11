@@ -6,7 +6,7 @@ def on_press(key):
     print('{0} pressed'.format(
         key))
     if key == Key.shift_l:
-      pyautogui.moveTo((GetSystemMetrics(0)//2)+1, (GetSystemMetrics(1)//2))
+      pyautogui.moveTo((GetSystemMetrics(0)//2)+1, (GetSystemMetrics(1)//2) + 1)
 
 def on_release(key):
     print('{0} release'.format(
